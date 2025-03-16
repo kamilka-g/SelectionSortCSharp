@@ -17,7 +17,7 @@ class Program
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write($"Element {i + 1}: ");
-                array[i] = int.Parse(Console.ReadLine());
+                array[i] = Convert.ToInt32(Console.ReadLine());
             }
         }
 
