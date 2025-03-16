@@ -47,7 +47,7 @@ class Program
         {
             int temp = array[index1];
             array[index1] = array[index2];
-            garray[index2] = temp;
+            array[index2] = temp;
         }
 
         public void PrintArray()
