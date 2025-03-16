@@ -74,5 +74,6 @@ class Program
 
         Console.WriteLine("Tablica po sortowaniu malejąco:");
         sorter.PrintArray();
+        Console.WriteLine("Thank you for using this algorythm");
     }
 }
